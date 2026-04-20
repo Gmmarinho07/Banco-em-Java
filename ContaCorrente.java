@@ -1,10 +1,22 @@
 public class ContaCorrente {
-    String cpfDoDono;
+    private Pessoa correntista;
+    private long numeroConta; // Número da conta corrente
+    private float saldoEmReais;
+    private int limiteDeChequeEspecialEmReais;
 
-    float saldoEmReais;
+    public ContaCorrente(long numeroConta, Pessoa correntista) {
+        this.numeroConta = numeroConta;
+        this.correntista = correntista;
 
+    }
 
-    // Até quando o saldo pode ficar negativo
-    int limeteDeChequeEspecialEmReais;
+    public Pessoa getCorrentista() {
+        return correntista;
+    }
     
+    public long getNumeroConta() {
+        return numeroConta;
+    }
 }
+
+
