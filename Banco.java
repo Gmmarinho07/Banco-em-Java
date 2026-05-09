@@ -63,4 +63,12 @@ public class Banco {
         f.salario *=1.3; // Aumenta o salário do funcionário em 30%
         System.out.println(f.toString()); // Imprime as informações do funcionário após a promoção
     }
+
+    public void receberAvaliacao(int nota, Pessoa avaliador) {
+
+    }
+
+    public float getAvaliacaoMedia() {
+        return 0;
+    }
 }

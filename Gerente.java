@@ -23,6 +23,14 @@ public class Gerente extends Funcionario {
         return super.toString() + 
         " | Equipe: " + subordinados.size();
     }
+
+    public void receberAvaliacao(int nota, Pessoa avaliador) {
+        // ToDo 
+    }
+
+    public float getAvaliacaoMedia() {
+        return 0;
+    }
     
 }
 

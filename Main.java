@@ -11,7 +11,9 @@ public class Main {
 
         // promovendo
         Funcionario f = meuBanco.localizarFuncionario("F1");
-        meuBanco.promoverFuncionario(f);           
+        meuBanco.promoverFuncionario(f);
+        
+    
     }
     
 }
